@@ -9,8 +9,5 @@ gsettings set org.gnome.desktop.interface clock-format '12h'
 # show weekday on top bar
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 
-# Reveal week numbers in the Gnome calendar
-gsettings set org.gnome.desktop.calendar show-weekdate true
-
 # make fonts bigger
 gsettings set org.gnome.desktop.interface text-scaling-factor 1.25
