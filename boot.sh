@@ -17,7 +17,7 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning Omakub..."
 rm -rf ~/.local/share/omakub-chase
-git clone https://github.com/chaseclark/omakub.git ~/.local/share/omakub-chase >/dev/null
+git clone https://github.com/ChaseClark/omakub-chase.git ~/.local/share/omakub-chase >/dev/null
 # if [[ $OMAKUB_REF != "master" ]]; then
 # 	cd ~/.local/share/omakub-chase
 # 	git fetch origin "${OMAKUB_REF:-stable}" && git checkout "${OMAKUB_REF:-stable}"
