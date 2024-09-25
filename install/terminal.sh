@@ -18,7 +18,7 @@ prompt_yes_no() {
 # Run terminal installers
 for installer in ~/.local/share/omakub-chase/install/terminal/*.sh 
 do 
-    if prompt_yes_no "Do you want to continue?"; then
+    if prompt_yes_no "Run $installer ?"; then
         source $installer 
     else
         echo "skipping $installer"
