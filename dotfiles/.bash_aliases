@@ -1,0 +1,1 @@
+alias up='sudo apt update -y && sudo apt upgrade && flatpak update && sudo snap refresh'
