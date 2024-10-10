@@ -17,11 +17,11 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t'
 gsettings set org.gnome.settings-daemon.plugins.media-keys www "['<Super>b']"
 
 # Full-screen with title/navigation bar
-gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Shift>F11']"
+gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>m']"
 
 # Use 6 fixed workspaces instead of dynamic mode
-gsettings set org.gnome.mutter dynamic-workspaces false
-gsettings set org.gnome.desktop.wm.preferences num-workspaces 6
+# gsettings set org.gnome.mutter dynamic-workspaces false
+# gsettings set org.gnome.desktop.wm.preferences num-workspaces 6
 
 # Use alt for pinned apps
 gsettings set org.gnome.shell.keybindings switch-to-application-1 "['<Alt>1']"
